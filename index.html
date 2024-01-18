@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Perhitungan Luas & Keliling Persegi</title>
+</head>
+<body>
+
+    <header>
+        <h1>Perhitungan Luas & Keliling Persegi</h1>
+    </header>
+
+    <section class="squareSection">
+        <h2>Keliling Persegi</h2>
+        <img src="images/k-persegi.png" alt="Bujur Sangkar Image" class="images">
+        
+        <div class="formula">
+            <p>Rumus Luas (L): L = S x S</p>
+        </div>
+    </section>
+
+    <section class="areaSection">
+        <h2>Hitung Luas Persegi</h2>
+        <form id="areaCalculatorForm">
+            <label for="sideLengthArea">Panjang Sisi (S):</label>
+            <input type="number" id="sideLengthArea" name="sideLengthArea" required>
+            <button type="button" onclick="calculateArea()">Hitung Luas</button>
+        </form>
+
+        <div id="areaResultContainer">
+            <p>Luas (L): <span id="areaResultForArea">0.00</span></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>by Zhendrik Irianto Pratama</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
